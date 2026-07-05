@@ -1,5 +1,7 @@
 # ✦ BrandIQ — Customer Value & Retention Platform
 
+👉 **Live Demo:** [https://brandiq-dashboard.vercel.app](https://brandiq-dashboard.vercel.app)
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FUtsav-Thakur%2FDecoding-Customer-Value-A-SQL-Driven-Retention-Strategy)
 
 BrandIQ is a premium, state-of-the-art customer intelligence dashboard designed for executives, marketers, and data analysts to decode customer lifecycle value, map discount exposure, and optimize profit margins in real-time.
