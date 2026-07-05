@@ -6,6 +6,10 @@
 
 An end-to-end customer intelligence system for a D2C fashion brand — engineering loyalty metrics from scratch, segmenting 3,900 customers via SQL, identifying promo-trap customers, and generating a zero-API AI retention assistant named JARVIS.
 
+### 📊 Platform Showcase
+![BrandIQ Executive Dashboard](public/screenshots/dashboard_overview.png)
+
+
 ---
 
 ## ## Section 3 — Problem Statement
@@ -424,6 +428,10 @@ graph TD
     JSCompiler --> TextRenderer[Stream Response: 12ms/char]
     TextRenderer --> WebUI[Chat Panel Display]
 ```
+
+### 🤖 JARVIS In Action
+![JARVIS AI Chatbot in Action](public/screenshots/jarvis_chat_in_action.png)
+
 
 ### Why Zero-API Architecture?
 Implementing a zero-API assistant provides significant advantages over traditional LLM deployments:
