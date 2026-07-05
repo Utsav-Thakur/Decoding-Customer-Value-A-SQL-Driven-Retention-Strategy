@@ -14,6 +14,10 @@ dist-ssr
 .env
 temp_uploader.py
 temp_readme_pusher.py
+temp_readme_pusher_v2.py
+temp_readme_pusher_v3.py
+temp_readme_pusher_v4.py
+temp_config_pusher.py
 
 # Editor directories and files
 .vscode/*
@@ -25,3 +29,6 @@ temp_readme_pusher.py
 *.njsproj
 *.sln
 *.sw?
+
+.vercel
+.env*

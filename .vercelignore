@@ -1,0 +1,6 @@
+backend/
+DataSet/
+temp_uploader.py
+temp_readme_pusher.py
+.git/
+node_modules/
