@@ -6,9 +6,15 @@
 
 An end-to-end customer intelligence system for a D2C fashion brand — engineering loyalty metrics from scratch, segmenting 3,900 customers via SQL, identifying promo-trap customers, and generating a zero-API AI retention assistant named JARVIS.
 
-### 📊 Platform Showcase
-![BrandIQ Executive Dashboard](public/screenshots/dashboard_overview.png)
+### 📊 Platform Showcase Gallery
 
+| Executive Dashboard Overview | Interactive Customer Value Pyramid |
+| :---: | :---: |
+| ![BrandIQ Executive Dashboard](public/screenshots/dashboard_overview.png) | ![Interactive Customer Value Pyramid](public/screenshots/customer_pyramid.png) |
+
+| Promotional Dependency Diagnostics | JARVIS Offline AI Chatbot |
+| :---: | :---: |
+| ![Promotional Dependency Diagnostics](public/screenshots/promo_analysis.png) | ![JARVIS AI Chatbot in Action](public/screenshots/jarvis_chat_in_action.png) |
 
 ---
 
