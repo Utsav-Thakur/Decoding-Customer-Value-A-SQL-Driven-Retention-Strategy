@@ -1,0 +1,42 @@
+{
+  "greetings": {
+    "keywords": ["hello", "hi", "hey", "greetings", "chat", "start", "assist"],
+    "response": "Welcome to **BrandIQ — Customer Intelligence**. I am your luxury brand strategist. I can analyze customer segments, evaluate promo traps, map geographic spends, or define the attributes of your ideal clients. What area of our customer database shall we dissect today?"
+  },
+  "overview": {
+    "keywords": ["overview", "dashboard", "kpi", "summary", "general", "performance"],
+    "response": "### Executive Brand Summary\nOur database reveals highly distinctive purchasing patterns:\n\n* **Average Purchase size** remains robust at approximately **$60.00**, indicating premium position alignment.\n* **Subscription status** is a key retention driver; subscribers buy 2.4x more frequently than non-subscribers.\n* **Promo Reliance** is a critical vulnerability. Currently, a significant segment is highly dependent on discount codes to complete transactions, eroding luxury gross margins.\n\nTo drive margin expansion, we must execute the *Retention Playbook* to transition promo-dependent shoppers into full-price loyalists."
+  },
+  "pyramid": {
+    "keywords": ["pyramid", "tier", "platinum", "gold", "silver", "bronze", "quartile"],
+    "response": "### Customer Pyramid Breakdown\nCustomers are divided into quartiles based on their **Composite Value** (Loyalty Score + Spend Efficiency):\n\n1. **Platinum (Top 25%):** Highly loyal, frequent subscribers purchasing clothing and accessories at full price. Average spend exceeds **$80 per item**.\n2. **Gold (25-50%):** Satisfied shoppers who purchase seasonal footwear and outerwear, occasionally relying on standard shipping pickup.\n3. **Silver (50-75%):** Moderate purchasers showing occasional discount utilization. Perfect candidate for loyalty-focused tier upgrades.\n4. **Bronze (Bottom 25%):** One-off shoppers with high churn risk and minimal engagement history.\n\n*Strategic Focus:* Upgrade Gold tiers by offering complimentary express shipping, and shield Platinum accounts from aggressive discount promotions to preserve brand prestige."
+  },
+  "promo": {
+    "keywords": ["promo", "discount", "trap", "coupon", "dependency", "efficiency"],
+    "response": "### Promo Dependency & Trap Diagnostics\nOur analysis reveals a subset of customers caught in the **Promo Trap**:\n\n* **Definition:** Customers with a `promoDependencyScore` of `1.0` (using discounts and promo codes on every order) whose lifetime purchases fall below the median.\n* **Vulnerability:** They are highly price-elastic and yield low customer lifetime value (LTV) while increasing service costs.\n\n*Recommendation:* Avoid sending flat-rate discounts to these cohorts. Instead, introduce value-add perks such as early access to new collections, exclusive colors, or custom sizing consultations to drive purchase behavior without sacrificing price integrity."
+  },
+  "geographic": {
+    "keywords": ["geographic", "map", "location", "state", "density", "cities"],
+    "response": "### Geographic Market Intelligence\nOur customer concentration and average spending show high variance across regions:\n\n* **Top States by Spend:** Kentucky, Maine, Massachusetts, and Rhode Island lead in total revenue generation.\n* **High-Rating Hubs:** States with smaller customer density but high satisfaction ratings represent key growth opportunities for pop-up boutiques or micro-targeted regional events.\n\n*Strategy:* Deploy target brand activations in high-LTV regions and investigate supply-chain delays in states showing lower-than-average review ratings."
+  },
+  "funnel": {
+    "keywords": ["funnel", "category", "item", "size", "color", "apparel", "clothing"],
+    "response": "### Category Performance & Apparel Funnel\nApparel purchases follow specific aesthetic clusters:\n\n* **Clothing & Footwear** represent the foundational volume drivers (over 60% of total revenue).\n* **Accessories & Outerwear** are high-margin categories that skew heavily towards seasonal buying.\n* **Aesthetic Palette:** Deep warm tones (Maroon, Black, Charcoal, Gray) hold high resonance in our premium market.\n\n*Actionable Insight:* Bundle high-margin accessories as complimentary upgrades for Platinum clothing purchases to increase Average Order Value (AOV)."
+  },
+  "retention": {
+    "keywords": ["retention", "churn", "risk", "playbook", "dormant", "re-engage"],
+    "response": "### Retention Playbook Action Items\nWe have identified three critical cohorts requiring automated, personalized outreach:\n\n1. **High Churn Risk (Frequency Score <= 2 & Rating < 3.5):** Deploy a high-touch feedback survey via email to resolve customer friction directly.\n2. **Dormant Subscribers (Subscription Status = Yes, but no recent activity):** Revive with personalized collection previews matching their historical color and size preferences.\n3. **Loyalists (Loyalty Score >= 0.6):** Secure lifetime loyalty via invitation-only VIP club status, offering priority access to limited product drops."
+  },
+  "ideal": {
+    "keywords": ["ideal", "profile", "best", "vip", "high value", "top spender"],
+    "response": "### The Ideal Customer Profile (ICP)\nOur top 10% customers represent the highest spend and loyalty scores. Their mathematical profile is:\n\n* **Average Age:** ~44 years old, demonstrating high disposable income.\n* **Preferred Category:** Clothing (Outerwear and Accessories act as high-frequency add-ons).\n* **Sizing/Palette:** Skews heavily towards size **M/L** and premium tones of **Maroon, Gray, and Violet**.\n* **Shipping Preference:** Heavy usage of Express and Next Day Air shipping, prioritizing speed and luxury service over cost.\n\n*Strategic Goal:* Target acquisition lookalikes matching this demographic profile to accelerate the growth of high-margin full-price customer cohorts."
+  },
+  "data": {
+    "keywords": ["data", "upload", "csv", "add", "new data", "update", "custom"],
+    "response": "### Data Ingestion Guidelines\nYou can expand our intelligence engine through two methods on the **New Data** screen:\n\n1. **CSV Bulk Upload:** Drag and drop a CSV file following the standard `Dataset.csv` columns. The javascript feature engine will instantly compute scores for all records, run V1/V2 calculations, and re-bucket customers into quartiles.\n2. **Manual Customer Form:** Add single customer profiles immediately to review how a new VIP client dynamically impacts our portfolio value metrics.\n\n*Note: All updates are processed in-memory only to comply with zero local-storage privacy rules.*"
+  },
+  "default": {
+    "keywords": [],
+    "response": "I have scanned the customer database, but I couldn't find a direct keyword match for your inquiry. \n\nTry asking me about:\n- **Overview** of brand KPIs\n- The **Customer Pyramid** (Platinum/Gold breakdown)\n- **Promo Trap** details and discount rates\n- The **Ideal Profile** of our top spenders\n- **Retention** plays for churn risk customers"
+  }
+}
